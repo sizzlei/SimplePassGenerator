@@ -39,7 +39,7 @@ func New(p PassInOut) *PassInOut {
 
 	if p.SpecialSet == true {
 		if p.Special == "" {
-			in.Special = "!@#$%^&*()-_=+[]{}|;:,.<>?/~`"
+			in.Special = "!#$^&()><~"
 		} else {
 			in.Special = p.Special
 		}
